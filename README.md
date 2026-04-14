@@ -78,10 +78,10 @@ If you wish to simulate a timeout error, go to line 26 of the file`internal/appl
 If everything goes well, the body you will receive will be:
 ```json
 {
-  "Cep": "09330340",
-  "Logradouro": "Rua Angelim Milanez",
-  "Bairro": "Jardim Luzitano",
+  "Cep": "00000000",
+  "Logradouro": "Rua Abc ",
+  "Bairro": "Jardim Florido",
   "UF": "SP",
-  "Provider": "BrasilAPI"
+  "Provider": "BrasilAPI OR ViaCEP"
 }
 ```
